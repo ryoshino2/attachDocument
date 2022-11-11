@@ -23,7 +23,6 @@ public class RhController : ControllerBase
         if(curriculo == null){
             return BadRequest();
         }
-        var fileName = curriculo.arquivo.FileName;
         
         return Ok();
     }
